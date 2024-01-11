@@ -10,7 +10,7 @@ export const Translator = () => {
           htmlFor="large-input"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
         >
-          Enter Galactic Basic here.
+          Enter your English words/phrases here.
         </label>
         <textarea
           onChange={(e) => setValue(e.target.value)}
