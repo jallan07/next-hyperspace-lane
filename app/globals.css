@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "aurebesh";
+  src: url("../public/fonts/aurebesh/aurebesh-webfont.woff2") format("woff2"),
+    url("../public/fonts/aurebesh/aurebesh-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "starJediRegular";
+  src: url("../public/fonts/starjedi/starjedi-webfont.woff2") format("woff2"),
+    url("../public/fonts/starjedi/starjedi-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* hollow star wars */
+@font-face {
+  font-family: "starJediHollow";
+  src: url("../public/fonts/starjedi/starjhol-webfont.woff2") format("woff2"),
+    url("../public/fonts/starjedi/starjhol-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,10 +42,4 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
