@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Quotes = async () => {
   return (
     <section className="mt-20">
@@ -10,7 +12,7 @@ export const Quotes = async () => {
             <p className="italic text-sm">"He's as clumsy as he is stupid."</p>
           </blockquote>
           <figcaption className="flex items-center justify-center ">
-            <img
+            <Image
               className="rounded-full w-9 h-12"
               src="https://vignette.wikia.nocookie.net/fr.starwars/images/3/32/Dark_Vador.jpg"
               alt="profile picture"
@@ -31,7 +33,7 @@ export const Quotes = async () => {
             <p className="italic text-sm">"I don't believe in chance."</p>
           </blockquote>
           <figcaption className="flex items-center justify-center ">
-            <img
+            <Image
               className="rounded-full w-9 h-12"
               src="https://vignette.wikia.nocookie.net/starwars/images/b/bf/PloKoonCardTrader.png"
               alt="profile picture"
@@ -52,7 +54,7 @@ export const Quotes = async () => {
             <p className="italic text-sm">"They fly now."</p>
           </blockquote>
           <figcaption className="flex items-center justify-center ">
-            <img
+            <Image
               className="rounded-full w-9 h-12"
               src="https://vignette.wikia.nocookie.net/starwars/images/7/79/Poe_Dameron_TLJ.png"
               alt="profile picture"
@@ -75,7 +77,7 @@ export const Quotes = async () => {
             </p>
           </blockquote>
           <figcaption className="flex items-center justify-center ">
-            <img
+            <Image
               className="rounded-full w-9 h-12"
               src="https://vignette.wikia.nocookie.net/starwars/images/b/b2/Padmegreenscrshot.jpg"
               alt="profile picture"
