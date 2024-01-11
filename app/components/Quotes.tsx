@@ -14,6 +14,8 @@ export const Quotes = async () => {
           <figcaption className="flex items-center justify-center ">
             <Image
               className="rounded-full w-9 h-12"
+              width={100}
+              height={100}
               src="https://vignette.wikia.nocookie.net/fr.starwars/images/3/32/Dark_Vador.jpg"
               alt="profile picture"
             />
@@ -35,6 +37,8 @@ export const Quotes = async () => {
           <figcaption className="flex items-center justify-center ">
             <Image
               className="rounded-full w-9 h-12"
+              width={100}
+              height={100}
               src="https://vignette.wikia.nocookie.net/starwars/images/b/bf/PloKoonCardTrader.png"
               alt="profile picture"
             />
@@ -56,6 +60,8 @@ export const Quotes = async () => {
           <figcaption className="flex items-center justify-center ">
             <Image
               className="rounded-full w-9 h-12"
+              width={100}
+              height={100}
               src="https://vignette.wikia.nocookie.net/starwars/images/7/79/Poe_Dameron_TLJ.png"
               alt="profile picture"
             />
@@ -79,6 +85,8 @@ export const Quotes = async () => {
           <figcaption className="flex items-center justify-center ">
             <Image
               className="rounded-full w-9 h-12"
+              width={100}
+              height={100}
               src="https://vignette.wikia.nocookie.net/starwars/images/b/b2/Padmegreenscrshot.jpg"
               alt="profile picture"
             />
